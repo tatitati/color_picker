@@ -1,11 +1,7 @@
-//
-//  ColorPickerVC.swift
-//  color-pick
-//
-//  Created by Francisco Albusac on 16/07/2018.
-//  Copyright © 2018 Francisco Albusac. All rights reserved.
-//
-
+/**
+ This class manage the window with multiple buttons, and is responsible
+ to update the gray button after the user clicks in any button
+ */
 import UIKit
 
 class ColorPickerVC: UIViewController {

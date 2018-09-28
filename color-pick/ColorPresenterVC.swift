@@ -1,11 +1,7 @@
-//
-//  ColorPresenterVC.swift
-//  color-pick
-//
-//  Created by Francisco Albusac on 15/07/2018.
-//  Copyright © 2018 Francisco Albusac. All rights reserved.
-//
-
+/**
+ This class provide a very shit screen in gray that we want to
+ change with the help of ColorPickerVC.swift
+ */
 import UIKit
 
 //
