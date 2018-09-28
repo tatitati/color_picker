@@ -30,5 +30,7 @@ class ColorPickerVC: UIViewController {
             color: sender.backgroundColor!,
             withName: sender.titleLabel!.text!
         )
+        
+        self.navigationController?.popViewController(animated: true)
     }
 }
