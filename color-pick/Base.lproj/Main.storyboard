@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G19009" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aK4-dK-ybu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G22010" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aK4-dK-ybu">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Gray is boring, choose a coolor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wA1-MX-lQe">
-                                <rect key="frame" x="16" y="155" width="343" height="79"/>
+                                <rect key="frame" x="16" y="150" width="343" height="79"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -72,7 +72,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRa-Si-hKf">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="120.5"/>
                                         <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Im Green"/>
                                         <connections>
                                             <action selector="colorBtnWasPressedWithSender:" destination="XeJ-8d-DBi" eventType="touchUpInside" id="bER-C9-RCm"/>
                                         </connections>
@@ -80,7 +80,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAo-Yt-F6D">
                                         <rect key="frame" x="0.0" y="120.5" width="343" height="120.5"/>
                                         <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Im Orange"/>
                                         <connections>
                                             <action selector="colorBtnWasPressedWithSender:" destination="XeJ-8d-DBi" eventType="touchUpInside" id="jjW-a3-smz"/>
                                         </connections>
@@ -88,7 +88,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AnB-d2-VR2">
                                         <rect key="frame" x="0.0" y="241" width="343" height="121"/>
                                         <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Im Blue"/>
                                         <connections>
                                             <action selector="colorBtnWasPressedWithSender:" destination="XeJ-8d-DBi" eventType="touchUpInside" id="Gt0-co-LYD"/>
                                         </connections>
@@ -96,7 +96,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kp8-nc-WxW">
                                         <rect key="frame" x="0.0" y="362" width="343" height="120.5"/>
                                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Im red"/>
                                         <connections>
                                             <action selector="colorBtnWasPressedWithSender:" destination="XeJ-8d-DBi" eventType="touchUpInside" id="BCa-Up-4WS"/>
                                         </connections>
@@ -104,7 +104,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9LZ-Fn-CeB">
                                         <rect key="frame" x="0.0" y="482.5" width="343" height="120.5"/>
                                         <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Im violet"/>
                                         <connections>
                                             <action selector="colorBtnWasPressedWithSender:" destination="XeJ-8d-DBi" eventType="touchUpInside" id="aiQ-6j-ipJ"/>
                                         </connections>
